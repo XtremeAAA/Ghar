@@ -124,7 +124,7 @@ body {
 }
 
 .scroll-item img {
-  width: 62.5rem; /* 1000px converted to rem */
+  width: 30rem; /* 1000px converted to rem */
   height: 31.25rem; /* 500px converted to rem */
   object-fit: cover;
   border-radius: 0.75rem; /* 12px converted to rem */
