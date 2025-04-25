@@ -34,7 +34,7 @@ body {
 
 .logo-text-Ghar{
   padding-top: 1rem;
-  font-size: 4rem;
+  font-size: 2rem;
   position: absolute;
   top: 25%;
   left: 50%;
@@ -45,7 +45,7 @@ body {
 }
 .logo-text-By{
   padding-top: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   position: absolute;
   top: 65%;
   left: 50%;
@@ -91,12 +91,12 @@ body {
 }
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .hero p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
   max-width: 37.5rem;
   margin-left: auto;
@@ -106,11 +106,11 @@ body {
 .btn {
   background-color: #b5612b;
   color: #fff;
-  padding: 0.8rem 1.5rem;
+  padding: 0.6rem 1.2rem;
   border-radius: 0.5rem;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: 2rem;
 }
 
@@ -131,6 +131,24 @@ body {
 
   .menu-toggle {
     display: block;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .logo-text-Ghar,
+  .logo-text-By {
+    font-size: 2rem;
   }
 }
 
@@ -157,8 +175,9 @@ body {
 }
 
 .scroll-item img {
-  width: 30rem;
-  height: 31.25rem;
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
   object-fit: cover;
   border-radius: 0.75rem;
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
@@ -172,9 +191,8 @@ body {
 .item-text h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  padding: 37.5rem;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 .item-text h2 {
@@ -184,9 +202,8 @@ body {
 
 .item-text p {
   font-size: 1.1rem;
-  margin-bottom: 1rem;
-  color: #444;
   margin-bottom: 2rem;
+  color: #444;
 }
 
 .scroll-item.reverse {
@@ -215,4 +232,10 @@ footer {
   color: #fff;
   text-align: center;
   padding: 2rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
