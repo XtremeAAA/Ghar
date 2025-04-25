@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +12,12 @@
   <!-- Navbar -->
   <nav class="navbar">
     <div class="logo">
-      <img src="Media/Logo3.png" alt="Ghar Logo">
+      <img src="Media/Logo/Logo3.png" alt="Ghar Logo">
+      <div class="logo-text">
+        <div class="logo-text-Ghar">Ghar</div>
+        <div class="logo-text-By">by Depinder</div>
+      </div>
     </div>
-    <div class="logo-text-Ghar">Ghar</div>
-    <div class="logo-text-By">by Depinder</div>
     <ul class="nav-links" id="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#">Menu</a></li>
@@ -34,13 +36,11 @@
     </header>
 
     <!-- Featured Items Section -->
+    
     <section class="scroll-section">
-      <div class="item-text">
-        <h1>Our Specialities</h1>
-      </div>
-
-      <div class="scroll-item">
-        <img src="Media/Butter-Chicken-2.jpg" alt="Butter Chicken">
+      <h1 class="section-heading">Our Specialities</h1>
+      <div class="scroll-item scroll-reveal">
+        <img src="Media/Food/Butter-Chicken-2.jpg" alt="Butter Chicken">
         <div class="item-text">
           <h2>Butter Chicken</h2>
           <p>Creamy, spiced, and rich — our signature Butter Chicken blends tradition and modern finesse.</p>
@@ -48,8 +48,8 @@
         </div>
       </div>
 
-      <div class="scroll-item">
-        <img src="Media/Paneer-Tikka-Masala-2.jpg" alt="Paneer Tikka Masala">
+      <div class="scroll-item scroll-reveal">
+        <img src="Media/Food/Paneer-Tikka-Masala-2.jpg" alt="Paneer Tikka Masala">
         <div class="item-text">
           <h2>Paneer Tikka Masala</h2>
           <p>Chargrilled paneer cubes marinated in aromatic spices — vegetarian perfection!</p>
@@ -57,8 +57,8 @@
         </div>
       </div>
 
-      <div class="scroll-item">
-        <img src="Media/Chicken65-2.jpg" alt="Chicken 65">
+      <div class="scroll-item scroll-reveal">
+        <img src="Media/Food/Chicken65-2.jpg" alt="Chicken 65">
         <div class="item-text">
           <h2>Chicken 65</h2>
           <p>Spicy, crispy, and utterly addictive — a must-try for spice lovers!</p>
@@ -76,9 +76,13 @@
   </div>
 
   <footer class="footer">
-    <p>&copy; 2025 Ghar by Depinder | Follow us on
-      <a href="#">Instagram</a> | <a href="#">Facebook</a>
-    </p>
+    <p>&copy; 2025 Ghar by Depinder | Follow us on</p>
+    <div class="social-icons">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
