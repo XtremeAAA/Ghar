@@ -124,7 +124,6 @@ body {
 .scroll-item img {
   width: 1000px; /* Set the width to 1000px */
   height: 500px; /* Set the height to 500px */
-  object-fit: cover; /* Ensure the image maintains its aspect ratio */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem; /* Add spacing between image and text */
