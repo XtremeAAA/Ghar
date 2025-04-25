@@ -129,11 +129,11 @@ body {
 }
 
 .scroll-item img {
-  width: 30rem; /* 1000px converted to rem */
-  height: 31.25rem; /* 500px converted to rem */
+  width: 30rem;
+  height: 31.25rem;
   object-fit: cover;
-  border-radius: 0.75rem; /* 12px converted to rem */
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1); /* 4px and 12px converted to rem */
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
 }
 
@@ -144,7 +144,7 @@ body {
 .item-text h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  padding: 37.5rem; /* 600px converted to rem */
+  padding: 37.5rem;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -174,4 +174,17 @@ body {
   .item-text {
     padding: 1rem 0;
   }
+}
+
+.contact-info {
+  padding: 4rem 2rem;
+  background-color: #f7f1e1;
+  text-align: center;
+}
+
+footer {
+  background-color: #1e3a34;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
 }
