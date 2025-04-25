@@ -1,4 +1,4 @@
-/* Fonts and reset */
+/* Fonts and Reset */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
 * {
@@ -11,6 +11,8 @@ body {
   font-family: 'Playfair Display', serif;
   background-color: #f7f1e1;
   color: #2d3c2e;
+  line-height: 1.6; /* Improve readability */
+  font-size: 16px; /* Base font size for rem calculations */
 }
 
 /* Navigation Bar */
@@ -68,7 +70,7 @@ body {
 .hero p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  max-width: 600px;
+  max-width: 37.5rem; /* 600px converted to rem */
   margin-left: auto;
   margin-right: auto;
 }
@@ -77,18 +79,18 @@ body {
   background-color: #b5612b;
   color: #fff;
   padding: 0.8rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 0.5rem; /* 8px converted to rem */
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
-  margin-bottom: 5rem;;
+  margin-bottom: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) { /* 768px converted to rem */
   .nav-links {
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 3.75rem; /* 60px converted to rem */
     right: 0;
     background-color: #1e3a34;
     width: 100%;
@@ -118,15 +120,16 @@ body {
   flex-direction: column; /* Stack image and text vertically */
   align-items: center;
   text-align: center;
-  max-width: 600px; /* Limit the width of each item */
+  max-width: 37.5rem; /* 600px converted to rem */
 }
 
 .scroll-item img {
-  width: 1000px; /* Set the width to 1000px */
-  height: 500px; /* Set the height to 500px */
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem; /* Add spacing between image and text */
+  width: 62.5rem; /* 1000px converted to rem */
+  height: 31.25rem; /* 500px converted to rem */
+  object-fit: cover;
+  border-radius: 0.75rem; /* 12px converted to rem */
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1); /* 4px and 12px converted to rem */
+  margin-bottom: 1rem;
 }
 
 .item-text {
@@ -136,9 +139,9 @@ body {
 .item-text h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  padding: 600px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding: 37.5rem; /* 600px converted to rem */
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .item-text h2 {
@@ -157,7 +160,7 @@ body {
   flex-direction: row-reverse;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) { /* 768px converted to rem */
   .scroll-item, .scroll-item.reverse {
     flex-direction: column;
     text-align: center;
