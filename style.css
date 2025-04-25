@@ -12,7 +12,7 @@ body {
   background-color: #f7f1e1;
   color: #2d3c2e;
   line-height: 1.6; /* Improve readability */
-  font-size: 16px; /* Base font size for rem calculations */
+  font-size: 16px;
 }
 
 /* Navigation Bar */
@@ -31,10 +31,22 @@ body {
   font-weight: bold;
 }
 
+.logo-text{
+  padding-top: 1rem;
+  font-size: 1.5rem;
+
+  justify-content: center;
+}
+
 .logo span {
   font-size: 0.75rem;
   display: block;
   font-weight: normal;
+}
+.logo img {
+  width: 7rem;
+  height: auto;
+  margin-right: 0.5rem;
 }
 
 .nav-links {
@@ -70,7 +82,7 @@ body {
 .hero p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  max-width: 37.5rem; /* 600px converted to rem */
+  max-width: 37.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -79,18 +91,18 @@ body {
   background-color: #b5612b;
   color: #fff;
   padding: 0.8rem 1.5rem;
-  border-radius: 0.5rem; /* 8px converted to rem */
+  border-radius: 0.5rem;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
   margin-bottom: 2rem;
 }
 
-@media (max-width: 48rem) { /* 768px converted to rem */
+@media (max-width: 48rem) {
   .nav-links {
     flex-direction: column;
     position: absolute;
-    top: 3.75rem; /* 60px converted to rem */
+    top: 3.75rem;
     right: 0;
     background-color: #1e3a34;
     width: 100%;
@@ -110,9 +122,9 @@ body {
   padding: 4rem 2rem;
   background-color: #fff8ec;
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping for responsiveness */
-  justify-content: center; /* Center items horizontally */
-  gap: 2rem; /* Add spacing between items */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .scroll-item {
@@ -120,12 +132,12 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 37.5rem; /* 600px */
-  background-color: #ffffff; /* Box background */
-  border: 0.125rem solid #e0d9c5; /* 2px border */
-  border-radius: 1rem; /* Rounded corners */
-  padding: 2rem; /* Space inside the box */
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05); /* Soft shadow */
+  max-width: 37.5rem;
+  background-color: #ffffff;
+  border: 0.125rem solid #e0d9c5;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .scroll-item img {
