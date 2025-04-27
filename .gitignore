@@ -398,3 +398,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# DS_Store files
+*.DS_Store
+.DS_Store
+Media/.DS_Store
+Media/Social Media/.DS_Store
