@@ -1,3 +1,8 @@
+/* Fonts and Reset */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
+@import url('https://www.w3schools.com/libSYU/w3.css');
+
 footer a.social-icon {
   color: #b5612b; /* Match button color */
   font-size: 1.5rem; /* Adjust size as needed */
@@ -12,9 +17,6 @@ footer a.social-icon:hover {
 footer .footer p {
   font-size: 1rem;
 }
-/* Fonts and Reset */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
 
 * {
   margin: 0;
@@ -236,6 +238,18 @@ body {
 
 .scroll-item.reverse {
   flex-direction: row-reverse;
+}
+
+.mySlides {
+  display:none;
+}
+.w3-left, .w3-right, .w3-badge{
+  cursor:pointer;
+}
+.w3-badge{
+  height:13px;
+  width:13px;
+  padding:0;
 }
 
 @media (max-width: 48rem) { /* 768px converted to rem */
